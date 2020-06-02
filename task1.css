@@ -1,0 +1,52 @@
+/*block1*/
+.blog{
+    text-align: center;
+    background-color: yellow;
+}
+.container {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: inherit;
+    //background: rgba(114, 186, 94, 0.05);
+  }
+  .r1{
+      margin-top: -20px;
+  }
+  ul{
+      list-style-type: none;
+      margin-left: -40px !important;
+  }
+  .vertical { 
+    border-left: 2px solid green; 
+    height: 100%; 
+    position: relative;;
+    left: 50%;
+  }
+/*bloc2*/
+  .centr{
+      margin-left: -200px;
+  }
+  .dec{
+      font-weight: bold;
+      font-size: 13px;
+  }
+  .para{
+      line-height: 2.3em;
+  }
+
+/*block3 */
+  .post{
+    position: absolute;
+    right: 10px;  
+    width: 170px;
+    height: 150px;
+    padding-right: 10px;
+    border: 2px dashed green;
+  }
+  .post h2{
+      margin-left: 50px;
+  }
+  .r3{
+      text-align: right;
+  }
